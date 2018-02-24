@@ -1,5 +1,5 @@
 /*
-Arduino Firmware - Passive Light Controller
+Arduino Firmware - Portable-NonInvasive Light Controller
 */
 // Required for the communication with the MQTT Broker
 #include <WiFi101.h>
@@ -22,9 +22,9 @@ int middlePos = 95;
 #include <ArduinoJson.h>
 
 // Update these with values suitable for your network.
-const char* ssid = "belkin.3830";
-const char* password = "84b43867";
-const char* mqtt_server = "192.168.2.2";
+const char* ssid = "ssdi";
+const char* password = "pass";
+const char* mqtt_server = "mqtt_broker_ip";
 
 // Connect to the network and create the MQTT client
 WiFiClient MKR1000Client;
