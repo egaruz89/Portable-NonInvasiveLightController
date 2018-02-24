@@ -1,0 +1,20 @@
+{
+  "name": "passivelightcontroller",
+  "version": "1.0.0",
+  "description": "Alexa Skill",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Alexa",
+    "iot",
+    "smart-home"
+  ],
+  "author": "Emmanuel",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.25",
+    "mssql": "^4.1.0"
+  }
+}
