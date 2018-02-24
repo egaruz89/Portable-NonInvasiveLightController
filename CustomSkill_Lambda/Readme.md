@@ -1,2 +1,1 @@
-Requires: 	"alexa-sdk"
-			"mssql"
+Requires: 	"alexa-sdk" and "mssql"
