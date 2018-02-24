@@ -1,0 +1,2 @@
+Requires: 	"alexa-sdk"
+			"mssql"
